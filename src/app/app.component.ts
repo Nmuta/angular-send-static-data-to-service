@@ -18,7 +18,7 @@ cars: Car[];
   }
 
   addCar(){
-    const newCar: Car = {make: "Tesla", model: "X", miles: 100 };
+    const newCar: Car = {make: "Tesla", model: "Model X", miles: 100 };
     this.transportationService.addCar(newCar);
   }
   
